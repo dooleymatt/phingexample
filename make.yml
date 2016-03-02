@@ -84,6 +84,8 @@ projects:
     version: ~
   views:
     version: ~
+  link:
+    version: ~
 
 libraries:
   ckeditor:
