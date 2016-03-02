@@ -8,4 +8,6 @@
   <!-- Load custom property values. -->
   <property file="${project.basedir}/build.yml" override="true"/>
 
+  <import file="tasks/local.xml"/>
+
 </project>
