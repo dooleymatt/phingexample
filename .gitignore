@@ -1,0 +1,108 @@
+# Ignore configuration files that may contain sensitive information.
+docroot
+sites/*/*/local.settings.php
+build/phing/build.properties
+local.*
+
+# Ignore paths that contain user-generated content.
+sites/*/files
+sites/*/private
+
+# Ignore contrib modules. These should be created during build process.
+sites/*/*/contrib
+sites/default/*/contrib
+sites/*/libraries
+
+# Ignore build artifacts
+/deploy
+bin/*
+tmp
+install/bin
+reports
+
+# Local testing config
+tests/behat/local.yml
+sites/*/local.settings.php
+sites/local.sites.php
+
+# Drush FirePHP files
+docroot/FirePHPCore
+
+# OS X
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+
+# Thumbnails
+._*
+
+# Files that might appear on external disk
+.Spotlight-V100
+.Trashes
+
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
+
+# Folder config file
+Desktop.ini
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+
+# Eclipse
+*.pydevproject
+.project
+.metadata
+tmp/**
+tmp/**/*
+*.tmp
+*.bak
+*.swp
+*~.nib
+local.properties
+.classpath
+.settings/
+.loadpath
+
+# External tool builders
+.externalToolBuilders/
+
+# Locally stored "Eclipse launch configurations"
+*.launch
+
+# CDT-specific
+.cproject
+
+# PDT-specific
+.buildpathk
+
+# Emacs
+*~
+\#*\#
+/.emacs.desktop
+/.emacs.desktop.lock
+*.elc
+auto-save-list
+tramp
+.\#*
+
+# PHPStorm
+.idea/
+
+#XHProf
+xhprof_*
+
+#Composer vendor
+vendor/
+vendor/.git
+
+#Sass
+.sass-cache
+*.css.map
+
+#Netbeans IDE
+nbproject
+nbproject/*
+
